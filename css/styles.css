@@ -61,8 +61,6 @@ body, html {
     transition: transform 0.3s ease;
 }
 
-
-
 footer {
 	position: fixed;
 	bottom: 0;
@@ -74,4 +72,13 @@ footer {
   text-align: center;
   padding: 20px;
     box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 30vh;
+    }
+    .content {
+        width: 90%;
+    }
 }
