@@ -82,3 +82,11 @@ footer {
         width: 90%;
     }
 }
+
+<img
+  src="images/image-1200.jpg"
+  srcset="images/image-600.jpg 600w,
+          images/image-800.jpg 800w,
+          images/image-1200.jpg 1200w"
+  sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1200px"
+  alt="image_description">
